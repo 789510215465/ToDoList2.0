@@ -1,0 +1,42 @@
+﻿<Window x:Class="todoList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todoList"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="300" Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock VerticalAlignment="Center" Margin="10 0"> 2018/05/17 15 : 00 ~ 18 : 00</TextBlock>
+        
+        <!-- -->
+        <Grid Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+                <StackPanel x:Name="TodoItemList" >
+                    <local:TodoItem ></local:TodoItem> 
+                </StackPanel>
+                   <Button Grid.Row="1" x:Name="AddBtn" Click="AddBtn_click">ADD</Button> 
+             
+</Grid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Grid>
+                <Rectangle Width="150" Height="50" Fill="Gray" x:Name="SaveBtn" MouseDown="SaveBtn_MouseDown">
+                </Rectangle>
+                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" >Save</TextBlock>
+            </Grid>
+            
+                <Button Width="150">Open</Button>
+        </StackPanel>
+    </Grid>
+</Window>

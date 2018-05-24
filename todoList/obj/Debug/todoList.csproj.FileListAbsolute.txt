@@ -1,0 +1,17 @@
+c:\git\todoList\todoList\bin\Debug\todoList.exe.config
+C:\git\todoList\todoList\bin\Debug\todoList.exe
+C:\git\todoList\todoList\bin\Debug\todoList.pdb
+C:\git\todoList\todoList\obj\Debug\todoList.csprojResolveAssemblyReference.cache
+C:\git\todoList\todoList\obj\Debug\MainWindow.g.cs
+C:\git\todoList\todoList\obj\Debug\App.g.cs
+C:\git\todoList\todoList\obj\Debug\todoList_MarkupCompile.cache
+C:\git\todoList\todoList\obj\Debug\todoList_MarkupCompile.lref
+C:\git\todoList\todoList\obj\Debug\MainWindow.baml
+C:\git\todoList\todoList\obj\Debug\todoList.g.resources
+C:\git\todoList\todoList\obj\Debug\todoList.Properties.Resources.resources
+C:\git\todoList\todoList\obj\Debug\todoList.csproj.GenerateResource.Cache
+C:\git\todoList\todoList\obj\Debug\todoList.exe
+C:\git\todoList\todoList\obj\Debug\todoList.pdb
+C:\git\todoList\todoList\obj\Debug\TodoItem.g.cs
+C:\git\todoList\todoList\obj\Debug\TodoItem.baml
+C:\git\todoList\todoList\obj\Debug\GeneratedInternalTypeHelper.g.cs
